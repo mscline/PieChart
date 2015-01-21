@@ -13,6 +13,7 @@
 		AE89FC8D1A70160400018E82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE89FC8C1A70160400018E82 /* Images.xcassets */; };
 		AE89FC901A70160400018E82 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE89FC8E1A70160400018E82 /* LaunchScreen.xib */; };
 		AE89FC9C1A70160400018E82 /* PieChartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE89FC9B1A70160400018E82 /* PieChartTests.swift */; };
+		AE89FCA61A703E8600018E82 /* PieSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE89FCA51A703E8600018E82 /* PieSlice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		AE89FC951A70160400018E82 /* PieChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PieChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE89FC9A1A70160400018E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE89FC9B1A70160400018E82 /* PieChartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartTests.swift; sourceTree = "<group>"; };
+		AE89FCA51A703E8600018E82 /* PieSlice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PieSlice.swift; path = ../PieSlice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +79,9 @@
 		AE89FC821A70160400018E82 /* PieChart */ = {
 			isa = PBXGroup;
 			children = (
-				AE89FC851A70160400018E82 /* AppDelegate.swift */,
-				AE89FC871A70160400018E82 /* ViewController.swift */,
 				AE89FC891A70160400018E82 /* Main.storyboard */,
-				AE89FC8C1A70160400018E82 /* Images.xcassets */,
-				AE89FC8E1A70160400018E82 /* LaunchScreen.xib */,
+				AE89FC871A70160400018E82 /* ViewController.swift */,
+				AE89FCA51A703E8600018E82 /* PieSlice.swift */,
 				AE89FC831A70160400018E82 /* Supporting Files */,
 			);
 			path = PieChart;
@@ -90,6 +90,9 @@
 		AE89FC831A70160400018E82 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AE89FC851A70160400018E82 /* AppDelegate.swift */,
+				AE89FC8C1A70160400018E82 /* Images.xcassets */,
+				AE89FC8E1A70160400018E82 /* LaunchScreen.xib */,
 				AE89FC841A70160400018E82 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE89FCA61A703E8600018E82 /* PieSlice.swift in Sources */,
 				AE89FC881A70160400018E82 /* ViewController.swift in Sources */,
 				AE89FC861A70160400018E82 /* AppDelegate.swift in Sources */,
 			);
@@ -405,6 +409,7 @@
 				AE89FCA11A70160400018E82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE89FCA21A70160400018E82 /* Build configuration list for PBXNativeTarget "PieChartTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				AE89FCA41A70160400018E82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
